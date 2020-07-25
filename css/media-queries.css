@@ -1,0 +1,49 @@
+
+/***************************/
+/*---Media Queires CSS----*/
+/*---Mobile Devices CSS----*/
+/***************************/
+
+@media only screen and (max-width: 1281px) {
+}
+ @media only screen and (min-width: 1281px) {
+}
+ @media only screen and (max-width: 1199px) {
+}
+ @media (min-width: 992px) and (max-width: 1199px) {
+}
+@media only screen and (max-width: 1024px) {
+ .footer-menu {
+flex-direction: column;
+}
+ .footer-menu li {
+ padding-bottom: 15px;
+}
+.copyright {
+ background-size: cover;
+ background-position: right center;
+}
+}
+ @media only screen and (max-width: 992px) {
+}
+ @media (min-width: 992px) {
+}
+ @media (max-width:769px) {
+}
+ @media (min-width:769px) {
+}
+ @media (min-width: 375px) and (max-width: 667px) {
+ .banner-content h1 {
+ font-size: 22px;
+}
+.services-box {
+ float: none;
+}
+ .top-header img {
+ width: 244px;
+}
+}
+ @media only screen and (max-width:480px) {
+}
+ @media only screen and (max-width:320px) {
+}
