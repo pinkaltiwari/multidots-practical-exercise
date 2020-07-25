@@ -13,7 +13,7 @@ body {
     background-color: #fff !important;
 }
 .navbar-nav.os-main-menu {
-        margin-left: auto;
+        margin-left: auto; 
 }
 .os-main-menu a.nav-link {
     color: #fff !important;
