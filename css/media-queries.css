@@ -23,6 +23,16 @@ flex-direction: column;
  background-size: cover;
  background-position: right center;
 }
+.banner-content h1 {
+    font-size: 23px;
+}
+.os-main-menu {
+    background: #0f2149;
+    padding: 23px;
+}
+.vision-mission {
+    margin-top: -106px;
+}
 }
  @media only screen and (max-width: 992px) {
 }

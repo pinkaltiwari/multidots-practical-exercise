@@ -41,7 +41,6 @@ body {
 }
 .banner-content {
 	position: absolute;
-	z-index: 99999;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -83,6 +82,8 @@ body {
     background-image: url(../images/Services-bg.jpg);
 	padding-top: 65px;
     padding-bottom: 65px;
+	background-size: cover;
+    background-position: right center;
 }
 .services-wrapper {
     background: #fff;
@@ -141,8 +142,11 @@ box-shadow: 10px 10px 62px -30px rgba(0,0,0,0.75);
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.ourwork .carousel-indicators li, .ourteam-section .carousel-indicators li, .testimonial .carousel-indicators li {
-    background-color: #b2b2b2 !important;
+.testimonial .carousel-indicators li.active, .ourteam-section .carousel-indicators li.active, .ourwork .carousel-indicators li.active {
+    background-color: #ff841b !important;
+}
+.ourwork .carousel-indicators li , .ourteam-section .carousel-indicators li , .testimonial .carousel-indicators li  {
+    background-color: #000 !important;
 }
 .ourwork .carousel-indicators, .ourteam-section .carousel-indicators {
     bottom: -12px;
@@ -153,6 +157,8 @@ box-shadow: 10px 10px 62px -30px rgba(0,0,0,0.75);
     height: 530px;
 	padding-top: 80px;
 	color: #fff;
+	background-size: cover;
+    background-position: right center;
 }
 .main-titele-dark {
     color: #ffffff !important;
@@ -197,7 +203,7 @@ box-shadow: 10px 10px 30px -19px rgba(0,0,0,0.75);
 
 /*********Our Team*********/
 .ourteam-section {
-    padding-top: 200px;
+    padding-top: 85px;
 	padding-bottom:85px;
 }
 .business-plan {
@@ -205,6 +211,8 @@ box-shadow: 10px 10px 30px -19px rgba(0,0,0,0.75);
     padding-top: 75px;
     padding-bottom: 53px;
     color: #fff;
+	background-size: cover;
+    background-position: right center;
 }
 .quote-btn {
     padding-top: 30px;
@@ -242,13 +250,15 @@ box-shadow: 10px 10px 30px -19px rgba(0,0,0,0.75);
     color: #fff;
     padding-top: 60px;
     padding-bottom: 60px;
+	background-size: cover;
+    background-position: right center;
 }
 .count-title {
     font-size: 50px;
     color: #ff841b;
     font-weight: 600;
 }
-.count-title::after {
+.count_title::after {
     content: "%";
 }
 
@@ -305,6 +315,3 @@ box-shadow: 10px 10px 30px -19px rgba(0,0,0,0.75);
 
 
 
-.testimonial .carousel-indicators li.active {
-    background-color: red !important;
-}
